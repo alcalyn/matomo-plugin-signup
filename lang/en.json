@@ -3,7 +3,7 @@
         "PluginDescription": "Let new users signup on your Matomo instance to track their own site.",
         "AllowNewUsersToSignup": "Allow new users to signup",
         "AllowNewUsersToSignupDescription": "Disable this option to block new signup. No one will be able to signup until you enable it again.",
-        "CancelSiteConfirm": "Are you sure to cancel site creation ?",
+        "CancelSiteConfirm": "Are you sure to cancel site creation?",
         "Signup": "Create an account"
     }
 }
