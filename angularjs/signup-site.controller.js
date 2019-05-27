@@ -11,6 +11,7 @@
     function SignupSiteController($scope, $filter, piwikApi, $timeout, sitesManagerAPI, sitesManagerAdminSitesModel, piwik) {
 
         var translate = $filter('translate');
+        var escape = $filter('escape');
 
         $scope.site = {};
         $scope.visible = false;
@@ -131,7 +132,7 @@
                 var notification = new UI.Notification();
                 var message = translate('Installation_SetupWebsiteSetupSuccess', $scope.site.name);
 
-                notification.show(message, {context: 'success', id: 'websitecreated'});
+                notification.show(escape(message), {context: 'success', id: 'websitecreated'});
                 notification.scrollToNotification();
 
                 backToLogin();
