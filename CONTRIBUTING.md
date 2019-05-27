@@ -38,6 +38,9 @@ cd matomo/
 # Install dependencies
 composer install
 
+# Enable development mode (useful i.e to avoid assets caching)
+php console development:enable
+
 # Run PHP local server
 php -S 0.0.0.0:8000
 ```
