@@ -2,13 +2,17 @@
 
 ## Description
 
-Let new users signup on your Matomo instance to track their own website.
+Let new users signup on your [Matomo](https://github.com/matomo-org/matomo) instance to track their own website.
 
 This plugin has been built in the aim to share your Matomo instance with other users.
 It let them automatically create an account and a website in order to have
 a tracking code and track their own website.
 
 ![Screenshot](screenshots/1-signup-user.png)
+
+This plugin also solves uses cases described in
+[#8358](https://github.com/matomo-org/matomo/issues/8358) and
+[#7622](https://github.com/matomo-org/matomo/issues/7622).
 
 ## Installation
 
