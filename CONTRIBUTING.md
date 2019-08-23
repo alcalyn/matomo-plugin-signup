@@ -9,11 +9,16 @@ Translate Matomo :
 
 <https://weblate.nsupdate.info/projects/matomo-plugin-signup/plugin/>
 
+Translations progression:
+
+![Weblate translations progression of Matomo Signup Plugin](https://weblate.alcalyn.app/widgets/matomo-plugin-signup/-/multi-auto.svg)
+
 ## Development
 
-To develop on this plugin, you need first a local instance.
+To develop on this plugin, you first need to run
+a local instance of Matomo.
 
-You have to clone the older Matomo version this plugin supports.
+You have to clone the oldest Matomo version this plugin supports.
 
 ### Install a specific version of Matomo
 
@@ -23,15 +28,19 @@ It requires:
 - composer
 - MariaDB or MySQL database
 
+Check the minimal version of Matomo this plugin supports in [plugin.json](plugin.json):
+
+If you see:
+
 ```bash
-# Check the minimal version of Matomo this plugin supports in [plugin.json](plugin.json).
+  "require": {
+    "piwik": ">=3.6.0-stable,<4.0.0-b1"
+  },
+```
 
-# If you see:
-#   "require": {
-#     "piwik": ">=3.6.0-stable,<4.0.0-b1"
-#   },
-# then you should develop on Matomo 3.6.0:
+then you should develop on Matomo 3.6.0, here is how to install it:
 
+``` bash
 git clone git@github.com:matomo-org/matomo.git --branch 3.6.0
 cd matomo/
 
@@ -54,7 +63,7 @@ Then, follow the installation process.
 
 ### Clone Signup plugin
 
-Once your Matomo instance is working, clone the Signup plugin inside `plugins/` folder.
+Once your Matomo instance is running, clone the Signup plugin inside `plugins/` folder.
 
 Asuming you forked `matomo-plugin-signup`:
 
