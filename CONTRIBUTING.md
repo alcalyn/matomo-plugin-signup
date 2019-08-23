@@ -7,7 +7,7 @@ without using git.
 
 Translate Matomo :
 
-<https://weblate.nsupdate.info/projects/matomo-plugin-signup/plugin/>
+<https://weblate.alcalyn.app/projects/matomo-plugin-signup/plugin/>
 
 Translations progression:
 
