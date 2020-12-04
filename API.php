@@ -74,7 +74,9 @@ class API extends PluginApi
 
         return [
             'result' => 'success',
-            'token_auth' => UsersManagerApi::getInstance()->getTokenAuth($login, md5($password)),
+            'token_auth' => UsersManagerApi::getInstance()
+                ->createAppSpecificTokenAuth($login, $password, 'SignupPlugin')
+            ,
         ];
     }
 

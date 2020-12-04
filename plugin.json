@@ -6,7 +6,7 @@
     "homepage": "https://github.com/alcalyn/matomo-plugin-signup",
     "theme": false,
     "require": {
-        "piwik": ">=3.6.0-stable,<4.0.0-b1"
+        "piwik": ">=4.0.0-stable,<5.0.0-b1"
     },
     "authors": [
         {
