@@ -1,0 +1,9 @@
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Neuen Benutzern die Anmeldung erlauben",
+        "AllowNewUsersToSignupDescription": "Deaktivieren Sie diese Option, um neue Anmeldungen zu blockieren. Niemand wird sich anmelden können, bis Sie die Option wieder aktivieren.",
+        "CancelSiteConfirm": "Sind Sie sicher dass Sie die Erstellung der Seite abbrechen wollen?",
+        "PluginDescription": "Lässt neue Benutzer in Ihrer Matomo Instanz anmelden um deren eigene Seite zu tracken.",
+        "Signup": "Benutzerkonto erstellen"
+    }
+}
