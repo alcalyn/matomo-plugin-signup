@@ -1,0 +1,9 @@
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Yeni kullanıcılar hesap açabilsin",
+        "AllowNewUsersToSignupDescription": "Yeni hesap açılmasını engellemek için bu seçeceği devre dışı bırakın. Bu seçenek yeniden etkinleştirilene kadar hiç kimse hesap açamaz.",
+        "CancelSiteConfirm": "Site oluşturmayı iptal etmek istediğinize emin misiniz?",
+        "PluginDescription": "Bu seçenek etkinleştirildiğinde, yeni kullanıcılar kendi sitelerini izlemek için Matomo bulut sunucunuzda hesap açabilir.",
+        "Signup": "Hesap açın"
+    }
+}
