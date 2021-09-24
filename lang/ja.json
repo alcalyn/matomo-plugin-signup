@@ -1,1 +1,9 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "新規ユーザーによるサインアップを許可します。",
+        "AllowNewUsersToSignupDescription": "このオプションを無効にすると、新規登録ができなくなります。再度有効にするまで、誰もサインアップできなくなります。",
+        "CancelSiteConfirm": "サイト作成をキャンセルしてよろしいですか？",
+        "PluginDescription": "新規ユーザーが自分のサイトをトラッキングするために、Matomoインスタンスにサインアップすることができます。",
+        "Signup": "アカウントの作成"
+    }
+}
