@@ -1,1 +1,9 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Permitir que novos utilizadores se inscrevam",
+        "AllowNewUsersToSignupDescription": "Desative esta opção para bloquear novas inscrições. Ninguém poderá inscrever-se até que você ative esta opção novamente.",
+        "CancelSiteConfirm": "Tem a certeza que deseja cancelar a criação do site?",
+        "PluginDescription": "Permita que novos utilizadores se inscrevam na sua instância do Matomo para rastrear os seus próprios sites.",
+        "Signup": "Criar uma conta"
+    }
+}
