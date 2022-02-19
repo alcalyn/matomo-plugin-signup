@@ -1,1 +1,9 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Lejo regjistrim përdoruesish të rinj",
+        "AllowNewUsersToSignupDescription": "Çaktivizojeni këtë mundësi që të bllokoni regjistrime të reja. Askush s’do të jetë në gjendje të regjistrohet, pa e riaktivizuar ju.",
+        "CancelSiteConfirm": "Jeni i sigurt për anulimin e krijimit të sajtit?",
+        "PluginDescription": "Lërini përdoruesit e rinj të regjistrohen te instanca juaj e Matomo-s, që të ndjekin sajtin e tyre.",
+        "Signup": "Krijoni një llogari"
+    }
+}
