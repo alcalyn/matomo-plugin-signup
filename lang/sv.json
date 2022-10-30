@@ -1,1 +1,9 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Tillåt nya användare att registrera sig",
+        "AllowNewUsersToSignupDescription": "Inaktivera det här alternativet för att blockera ny registrering. Ingen kommer att kunna registrera sig förrän du aktiverar det igen.",
+        "CancelSiteConfirm": "Är du säker på att avbryta skapandet av webbplatsen?",
+        "PluginDescription": "Låt nya användare registrera sig på din Matomo-instans för att spåra sin egen webbplats.",
+        "Signup": "Skapa ett konto"
+    }
+}
