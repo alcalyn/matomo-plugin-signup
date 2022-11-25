@@ -1,1 +1,2 @@
-/vue/dist/
+/vue/dist/*.map
+/vue/dist/*.umd.js
