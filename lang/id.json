@@ -1,1 +1,9 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Izinkan pengguna baru untuk mendaftar",
+        "AllowNewUsersToSignupDescription": "Nonaktifkan opsi ini untuk memblokir pendaftaran baru. Tidak ada yang bisa mendaftar sampai Anda mengaktifkannya lagi.",
+        "CancelSiteConfirm": "Apakah Anda yakin akan membatalkan pembuatan situs?",
+        "PluginDescription": "Membolehkan pengguna baru untuk mendaftar di Matomo Anda untuk melacak situs mereka sendiri.",
+        "Signup": "Buat akun"
+    }
+}

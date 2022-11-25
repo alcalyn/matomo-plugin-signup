@@ -1,1 +1,9 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "允许新用户注册",
+        "AllowNewUsersToSignupDescription": "禁用此选项可阻止新注册。在你再次启用之前，任何人都无法注册。",
+        "CancelSiteConfirm": "你确定要终止网站创建吗？",
+        "PluginDescription": "让新用户在你的Matomo实例上注册以追踪他们自己的网站。",
+        "Signup": "创建一个账户"
+    }
+}

@@ -1,1 +1,9 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Permetre registre de nous usuaris",
+        "AllowNewUsersToSignupDescription": "Desactiveu aquesta opció per bloquejar un registre nou. Ningú es podrà registrar fins que no es torni a activar.",
+        "CancelSiteConfirm": "Segur que voleu cancel·lar la creació del lloc?",
+        "PluginDescription": "Permet que els usuaris nous es registrin a la vostra instància de Matomo per fer un seguiment del seu propi lloc.",
+        "Signup": "Crear un compte"
+    }
+}

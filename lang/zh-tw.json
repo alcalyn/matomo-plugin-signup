@@ -1,1 +1,5 @@
-{}
+{
+    "Signup": {
+        "PluginDescription": "讓新用戶在您的 Matomo 實例上註冊以追蹤他們自己的網站。"
+    }
+}
