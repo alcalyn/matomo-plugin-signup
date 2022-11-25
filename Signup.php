@@ -123,7 +123,6 @@ class Signup extends Plugin
             return;
         }
 
-        $jsFiles[] = 'plugins/Signup/angularjs/signup-site.controller.js';
         $jsFiles[] = 'plugins/Signup/javascripts/signup.js';
     }
 

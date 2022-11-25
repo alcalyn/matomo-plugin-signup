@@ -2,16 +2,15 @@
 
 ## Translation
 
-A weblate instance has been setup to translate this plugin
-without using git.
+[![État de la traduction](https://hosted.weblate.org/widgets/matomo/-/communityplugin-signup/multi-auto.svg)](https://hosted.weblate.org/engage/matomo/)
 
-Translate Matomo :
+Translate this plugin :
 
-<https://weblate.alcalyn.app/projects/matomo-plugin-signup/plugin/>
+<https://hosted.weblate.org/projects/matomo/communityplugin-signup/>
 
-Translations progression:
+Or translate Matomo or any plugin :
 
-![Weblate translations progression of Matomo Signup Plugin](https://weblate.alcalyn.app/widgets/matomo-plugin-signup/-/multi-auto.svg)
+<https://hosted.weblate.org/engage/matomo/>
 
 ## Development
 
@@ -27,6 +26,7 @@ It requires:
 - php
 - composer
 - MariaDB or MySQL database
+- node (works better on v16 for me)
 
 Check the minimal version of Matomo this plugin supports in [plugin.json](plugin.json):
 
@@ -34,28 +34,32 @@ If you see:
 
 ```bash
   "require": {
-    "piwik": ">=3.6.0-stable,<4.0.0-b1"
+    "piwik": ">=4.8.0,<5.0.0-b1"
   },
 ```
 
-then you should develop on Matomo 3.6.0, here is how to install it:
+then you should develop on Matomo 4.8.0, here is how to install it:
 
 ``` bash
-git clone git@github.com:matomo-org/matomo.git --branch 3.6.0
+git clone git@github.com:matomo-org/matomo.git --branch 4.8.0
 cd matomo/
 
 # Install dependencies
 composer install
 
-# Enable development mode (useful i.e to avoid assets caching)
+# Enable development mode (to avoid assets caching and enabling vue assets building)
 php console development:enable
 
 # Run PHP local server
 php -S 0.0.0.0:8000
+
+# Automatically build vue assets
+php console vue:build Signup --watch
 ```
 
-All this part, expect cloning a specific version of Matomo,
-is also officially documented by Matomo:
+Then go to <http://0.0.0.0:8000/index.php>
+
+All this part is also officially documented by Matomo:
 
 <https://developer.matomo.org/guides/getting-started-part-1>
 
