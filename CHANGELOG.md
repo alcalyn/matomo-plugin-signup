@@ -1,5 +1,9 @@
 ## Changelog
 
+### Version 4.1.0
+
+- [Fixes #16] Supports Matomo 4.8: fix signup and website creation (VueJS)
+
 ### Version 4.0.0
 
 - [Fixes #4] Supports Matomo 4

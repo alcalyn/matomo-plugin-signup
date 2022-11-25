@@ -1,4 +1,4 @@
-(function ($, document, ajaxHelper, _pk_translate) {
+(function ($, document, _pk_translate) {
     $(function () {
         if (document.querySelector('form#signup_form')) {
             placeSignupForm();
@@ -28,6 +28,7 @@
             }
 
             var ajaxRequest = new ajaxHelper();
+
             ajaxRequest.useCallbackInCaseOfError();
             ajaxRequest.setLoadingElement('.loadingPiwik');
             ajaxRequest.setFormat('json');
@@ -48,7 +49,6 @@
 
                     hideSignupForm(function () {
                         showSiteForm();
-                        angular.element('.signupSiteForm').scope().$apply();
                     });
                 } else {
                     handleUserCreationFormErrors(response);
@@ -75,7 +75,7 @@
         var $alert = $('<div class="alert alert-danger signup-form-error">').html(message);
 
         if (field) {
-            $('.signupForm input[name='+field+']').closest('.input-field').append($alert);
+            $('.signupForm input[name=' + field + ']').closest('.input-field').append($alert);
         } else {
             $('.message_container').append($alert);
         }
@@ -106,24 +106,17 @@
         $('.signupForm').fadeOut(500, callback);
     }
 
-    function showSiteForm() {
-        angular.element('.signupSiteForm').scope().showSignupSiteForm();
-
-        $('.loginSection').find('> .col')
-            .removeClass('m6 push-m3 l4 push-l4')
-            .addClass('l8 push-l2');
+    function showSiteForm(callback) {
+        $('#signup-create-site-container').fadeIn(300, callback);
     }
 
-    function hideSiteForm() {
-        angular.element('.signupSiteForm').scope().hideSignupSiteForm();
-
-        $('.loginSection').find('> .col')
-            .removeClass('l8 push-l2')
-            .addClass('m6 push-m3 l4 push-l4');
+    function hideSiteForm(callback) {
+        $('#signup-create-site-container').fadeOut(500, callback);
     }
 
     function placeSignupForm() {
         $('.signupForm').insertAfter('.loginForm');
+        $('#signup-create-site-container').insertAfter('.loginForm');
     }
 
     function reopenLoginOnSignupFinish() {
@@ -132,4 +125,4 @@
             showLoginForm();
         }, false);
     }
-})(jQuery, document, ajaxHelper, _pk_translate);
+})(jQuery, document, _pk_translate);

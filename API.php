@@ -6,6 +6,7 @@ use Piwik\Auth;
 use Piwik\Nonce;
 use Piwik\Access;
 use Piwik\Container\StaticContainer;
+use Piwik\Piwik;
 use Piwik\Plugins\API\API as PluginApi;
 use Piwik\Plugins\UsersManager\API as UsersManagerApi;
 use Piwik\Plugins\SitesManager\API as SitesManagerApi;
@@ -68,9 +69,15 @@ class API extends PluginApi
             ];
         }
 
-        Access::getInstance()->doAsSuperUser(function () use ($login, $password, $email) {
-            UsersManagerApi::getInstance()->addUser($login, $password, $email);
-        });
+        try {
+            Signup::$disablePasswordConfirmationOnce = true;
+
+            Access::getInstance()->doAsSuperUser(function () use ($login, $password, $email) {
+                UsersManagerApi::getInstance()->addUser($login, $password, $email);
+            });
+        } finally {
+            Signup::$disablePasswordConfirmationOnce = false;
+        }
 
         return [
             'result' => 'success',

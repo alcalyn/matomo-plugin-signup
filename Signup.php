@@ -13,7 +13,13 @@ use Piwik\View;
 class Signup extends Plugin
 {
     /**
-     * @param bool
+     * @var bool Whether the next api call requires password confirmation.
+     *           Used to signup as anonymous.
+     */
+    public static $disablePasswordConfirmationOnce = false;
+
+    /**
+     * @var bool
      */
     private $allowNewUsersToSignup;
 
@@ -39,7 +45,21 @@ class Signup extends Plugin
             'Template.loginNav' => 'addSignupButton',
             'Template.beforeContent' => 'addSignupForms',
             'Translate.getClientSideTranslationKeys' => 'getClientSideTranslationKeys',
+            'Login.userRequiresPasswordConfirmation' => 'userRequiresPasswordConfirmation',
         );
+    }
+
+
+    /**
+     * Listener to disable password confirmation once,
+     * to allow to signup as anonymous from api.
+     */
+    public function userRequiresPasswordConfirmation(&$requiresPasswordConfirmation, $login)
+    {
+        if (self::$disablePasswordConfirmationOnce) {
+            $requiresPasswordConfirmation = false;
+            self::$disablePasswordConfirmationOnce = false;
+        }
     }
 
     /**
@@ -123,7 +143,6 @@ class Signup extends Plugin
             return;
         }
 
-        $jsFiles[] = 'plugins/Signup/angularjs/signup-site.controller.js';
         $jsFiles[] = 'plugins/Signup/javascripts/signup.js';
     }
 
