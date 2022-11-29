@@ -1,9 +1,9 @@
 {
     "Signup": {
-        "PluginDescription": "Permet à de nouveaux utilisateurs de s'inscrire sur votre instance Matomo et de traquer leur propre site web.",
         "AllowNewUsersToSignup": "Permettre à de nouveaux utilisateurs de s'inscrire",
         "AllowNewUsersToSignupDescription": "Désactivez cette option pour empêcher les nouvelles inscriptions. Personne ne pourra s'inscrire sur votre instance Matomo jusqu'à ce que vous réactiviez cette option.",
         "CancelSiteConfirm": "Êtes-vous sûr(e) de vouloir annuler la création du site ?",
+        "PluginDescription": "Permet à de nouveaux utilisateurs de s'inscrire sur votre instance Matomo et de suivre leur propre site web.",
         "Signup": "Créer un compte"
     }
 }
