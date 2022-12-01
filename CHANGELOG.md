@@ -1,5 +1,9 @@
 ## Changelog
 
+### Version 4.2.0
+
+- [Fixes #7] Allow to restrict users signup by email domain
+
 ### Version 4.1.0
 
 - [Fixes #16] Supports Matomo 4.8: fix signup and website creation (VueJS)

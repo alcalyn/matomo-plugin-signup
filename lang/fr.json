@@ -1,8 +1,11 @@
 {
     "Signup": {
+        "AllowedEmailDomains": "Domaines de courriels autorisés",
+        "AllowedEmailDomainsDescription": "Saisir une liste de domaines qui seront autorisés à se créer un accès via ce plugin. Un domaine par ligne, le caractère * est autorisé. Exemple : evilcorp.com, *.evilcorp.com autorisera les emails comme john@intra.evilcorp.com. Laisser vide pour ne pas appliquer de restrictions.",
         "AllowNewUsersToSignup": "Permettre à de nouveaux utilisateurs de s'inscrire",
         "AllowNewUsersToSignupDescription": "Désactivez cette option pour empêcher les nouvelles inscriptions. Personne ne pourra s'inscrire sur votre instance Matomo jusqu'à ce que vous réactiviez cette option.",
         "CancelSiteConfirm": "Êtes-vous sûr(e) de vouloir annuler la création du site ?",
+        "DisallowedEmailDomain": "Vous ne pouvez pas créer de compte avec ce courriel, votre nom de domaine %s n'est pas autorisé. Les domaines autorisés sont : %s",
         "PluginDescription": "Permet à de nouveaux utilisateurs de s'inscrire sur votre instance Matomo et de suivre leur propre site web.",
         "Signup": "Créer un compte"
     }

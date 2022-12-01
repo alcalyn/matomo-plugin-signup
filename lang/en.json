@@ -1,9 +1,12 @@
 {
     "Signup": {
-        "PluginDescription": "Let new users signup on your Matomo instance to track their own site.",
+        "AllowedEmailDomains": "Authorized email domains",
+        "AllowedEmailDomainsDescription": "Enter the list of email domains authorized to create an access from this plugin. One domain per line, character * is allowed. Example: evilcorp.com, *.evilcorp.com will allow emails like john@intra.evilcorp.com. Let empty to not apply any restrictions.",
         "AllowNewUsersToSignup": "Allow new users to signup",
         "AllowNewUsersToSignupDescription": "Disable this option to block new signup. No one will be able to signup until you enable it again.",
         "CancelSiteConfirm": "Are you sure to cancel site creation?",
+        "DisallowedEmailDomain": "Cannot signup with this email, your domain %s is not allowed. Allowed domains are: %s",
+        "PluginDescription": "Let new users signup on your Matomo instance to track their own site.",
         "Signup": "Create an account"
     }
 }

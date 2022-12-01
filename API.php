@@ -2,6 +2,7 @@
 
 namespace Piwik\Plugins\Signup;
 
+use Exception;
 use Piwik\Auth;
 use Piwik\Nonce;
 use Piwik\Access;
@@ -33,6 +34,7 @@ class API extends PluginApi
         return [
             'signupPlugin' => true,
             'allowNewUsersToSignup' => $settings->allowNewUsersToSignup->getValue(),
+            'allowedEmailDomains' => $settings->allowedEmailDomains->getValue(),
         ];
     }
 
@@ -51,6 +53,7 @@ class API extends PluginApi
     public function signupUser($login, $password, $email, $nonce)
     {
         $this->mustUsersSignupAllowed();
+        $this->checkEmailDomainAllowed($email);
 
         $form = new FormSignup();
 
@@ -169,24 +172,6 @@ class API extends PluginApi
     }
 
     /**
-     * Returns all available measurable types.
-     *
-     * 'Alias' to Piwik\Plugins\API\API::getAvailableMeasurableTypes
-     * but allows anonymous users to call it,
-     * because when creating a site, user has not yet any rights.
-     *
-     * @deprecated It calls another deprecated API endpoint.
-     *
-     * @return array
-     */
-    public function getAnonymousAvailableMeasurableTypes()
-    {
-        return Access::getInstance()->doAsSuperUser(function () {
-            return $this->getAvailableMeasurableTypes();
-        });
-    }
-
-    /**
      * Check if superuser has allowed new users to signup in system settings.
      *
      * @throws Exception When signup are disabled in settings.
@@ -197,7 +182,37 @@ class API extends PluginApi
         $allowedToSignup = $settings->allowNewUsersToSignup->getValue();
 
         if (!$allowedToSignup) {
-            throw new \Exception('Signup are disabled on this instance.');
+            throw new Exception('Signup are disabled on this instance.');
         }
+    }
+
+    /**
+     * Check if email domain is allowed.
+     *
+     * @throws Exception If domain is not allowed
+     */
+    private function checkEmailDomainAllowed($email)
+    {
+        $settings = new SystemSettings();
+        $allowedEmailDomains = $settings->allowedEmailDomains->getValue();
+
+        if (0 === count($allowedEmailDomains)) {
+            return;
+        }
+
+        foreach ($allowedEmailDomains as $allowedEmailDomain) {
+            $regex = $allowedEmailDomain;
+            $regex = str_replace('.', '\\.', $regex);
+            $regex = str_replace('*', '.*', $regex);
+
+            if (preg_match("/@$regex$/i", $email)) {
+                return;
+            }
+        }
+
+        throw new Exception(Piwik::translate('Signup_DisallowedEmailDomain', [
+            array_pop(explode('@', $email)),
+            join(', ', $allowedEmailDomains),
+        ]));
     }
 }
