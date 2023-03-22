@@ -2,7 +2,10 @@
     "Signup": {
         "AllowNewUsersToSignup": "Permetre registre de nous usuaris",
         "AllowNewUsersToSignupDescription": "Desactiveu aquesta opció per bloquejar un registre nou. Ningú es podrà registrar fins que no es torni a activar.",
+        "AllowedEmailDomains": "Dominis de correu electrònic autoritzats",
+        "AllowedEmailDomainsDescription": "Introduïu la llista de dominis de correu electrònic autoritzats per crear un accés des d'aquest connector. Un domini per línia, es permet el caràcter *. Exemple: evilcorp.com, *.evilcorp.com permetrà correus electrònics com john@intra.evilcorp.com. Deixeu buit per no aplicar cap restricció.",
         "CancelSiteConfirm": "Segur que voleu cancel·lar la creació del lloc?",
+        "DisallowedEmailDomain": "No us podeu donar d'alta amb aquest correu electrònic, el vostre domini %s no està permès. Els dominis permesos són: %s",
         "PluginDescription": "Permet que els usuaris nous es registrin a la vostra instància de Matomo per fer un seguiment del seu propi lloc.",
         "Signup": "Crear un compte"
     }
