@@ -2,8 +2,11 @@
     "Signup": {
         "AllowNewUsersToSignup": "Permitir el registro de más usuarios",
         "AllowNewUsersToSignupDescription": "Desactiva esta opción para bloquear las nuevas inscripciones. Nadie podrá registrarse hasta que la habilites de nuevo.",
+        "AllowedEmailDomains": "Dominios de correo electrónico autorizados",
+        "AllowedEmailDomainsDescription": "Introduzca la lista de dominios de correo electrónico autorizados a crear un acceso desde este plugin. Un dominio por línea, se permite el carácter *. Ejemplo: evilcorp.com, *.evilcorp.com permitirá emails como john@intra.evilcorp.com. Deje vacío para no aplicar ninguna restricción.",
         "CancelSiteConfirm": "¿Seguro que quieres abandonar la creación de la web?",
-        "PluginDescription": "Permitir más registros en la instancia de Matomo y que los usuarios rastreen sus propias webs.",
+        "DisallowedEmailDomain": "No puede registrarse con este correo electrónico, su dominio %s no está permitido. Los dominios permitidos son: %s",
+        "PluginDescription": "Permita que los nuevos usuarios se registren en su instancia de Matomo para rastrear su propio sitio.",
         "Signup": "Crear una cuenta"
     }
 }
