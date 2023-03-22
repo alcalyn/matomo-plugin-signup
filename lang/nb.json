@@ -2,7 +2,10 @@
     "Signup": {
         "AllowNewUsersToSignup": "Tillat nye brukere å registrere seg",
         "AllowNewUsersToSignupDescription": "Skru av dette valget for å blokkere ny-registreringer. Ingen vil kunne registrere seg til du skrur det på igjen.",
+        "AllowedEmailDomains": "Godkjente e-postdomener",
+        "AllowedEmailDomainsDescription": "Angi liste over e-postadresser for domener som får opprette tilgang fra dette programtillegget. Ett domene per linje. Tegnet «*» tillates. Eksempel: for «evilcorp.com», vil *evilcorp.com tillate e-postadresser ala ola@evilcorp.com. La stå tomt for å ikke ha noen begrensninger.",
         "CancelSiteConfirm": "Avbryt opprettelse av side?",
+        "DisallowedEmailDomain": "Kan ikke registrere med denne e-postadressen, siden domenet «%s» ikke tillates. Disse domenene tillates: %s",
         "PluginDescription": "La nye brukere registrere seg på din Matomo-instans for å spore sin egen side.",
         "Signup": "Opprett konto"
     }
