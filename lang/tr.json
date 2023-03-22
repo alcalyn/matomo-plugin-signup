@@ -2,7 +2,10 @@
     "Signup": {
         "AllowNewUsersToSignup": "Yeni kullanıcılar hesap açabilsin",
         "AllowNewUsersToSignupDescription": "Yeni hesap açılmasını engellemek için bu seçeceği devre dışı bırakın. Bu seçenek yeniden etkinleştirilene kadar hiç kimse hesap açamaz.",
+        "AllowedEmailDomains": "İzin verilmiş e-posta etki alanları",
+        "AllowedEmailDomainsDescription": "Bu uygulama ekinden erişebilmesine izin verilen e-posta etki alanlarının listesini yazın. Her etki alanını ayrı bir satıra yazın. * genel arama karakteri kullanılabilir. Örnek: evilcorp.com, *.evilcorp.com john@intra.evilcorp.com gibi e-postalara izin verir. Herhangi bir kısıtlama uygulanmaması için boş bırakın.",
         "CancelSiteConfirm": "Site oluşturmayı iptal etmek istediğinize emin misiniz?",
+        "DisallowedEmailDomain": "Bu e-posta ile hesap açılamıyor, %s etki alanınıza izin verilmiyor. İzin verilen etki alanları şunlardır: %s",
         "PluginDescription": "Bu seçenek etkinleştirildiğinde, yeni kullanıcılar kendi sitelerini izlemek için Matomo bulut sunucunuzda hesap açabilir.",
         "Signup": "Hesap açın"
     }
