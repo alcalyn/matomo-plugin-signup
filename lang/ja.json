@@ -2,7 +2,10 @@
     "Signup": {
         "AllowNewUsersToSignup": "新規ユーザーによるサインアップを許可します。",
         "AllowNewUsersToSignupDescription": "このオプションを無効にすると、新規登録ができなくなります。再度有効にするまで、誰もサインアップできなくなります。",
+        "AllowedEmailDomains": "承認された電子メール ドメイン",
+        "AllowedEmailDomainsDescription": "このプラグインからのアクセスを作成するために承認された電子メール ドメインのリストを入力します。 1 行に 1 つのドメイン、文字 * を使用できます。 例：evilcorp.com、*.evilcorp.com は、john@intra.evilcorp.com のような電子メールを許可します。 制限を適用しない場合は空にします。",
         "CancelSiteConfirm": "サイト作成をキャンセルしてよろしいですか？",
+        "DisallowedEmailDomain": "この電子メールでサインアップできません。ドメイン %s は許可されていません。 許可されたドメイン: %s",
         "PluginDescription": "新規ユーザーが自分のサイトをトラッキングするために、Matomoインスタンスにサインアップすることができます。",
         "Signup": "アカウントの作成"
     }

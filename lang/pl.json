@@ -1,1 +1,12 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Zezwól nowym użytkownikom na rejestrację",
+        "AllowNewUsersToSignupDescription": "Wyłączenie tej opcji spowoduje zablokowanie rejestracji nowych użytkowników. Nikt nie będzie mógł się zarejestrować, dopóki nie włączysz jej ponownie.",
+        "AllowedEmailDomains": "Autoryzowane domeny e-mail",
+        "AllowedEmailDomainsDescription": "Wprowadź listę domen e-mail autoryzowanych do utworzenia dostępu z tej wtyczki. Jedna domena na wiersz, znak * jest dozwolony. Przykład: evilcorp.com *.evilcorp.com zezwala na e-maile takie jak john@intra.evilcorp.com. Pozostaw puste, aby nie stosować żadnych ograniczeń.",
+        "CancelSiteConfirm": "Czy na pewno chcesz anulować tworzenie strony?",
+        "DisallowedEmailDomain": "Nie można zarejestrować się za pomocą tego e-maila, domena %s jest niedozwolona. Dozwolone domeny to: %s",
+        "PluginDescription": "Pozwól nowym użytkownikom zarejestrować się na swojej instancji Matomo, aby śledzić swoją własną witrynę.",
+        "Signup": "Załóż konto"
+    }
+}

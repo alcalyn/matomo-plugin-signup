@@ -2,6 +2,7 @@
     "Signup": {
         "AllowNewUsersToSignup": "Nieuwe gebruikers toestaan zich aan te melden",
         "AllowNewUsersToSignupDescription": "Schakel deze optie uit om nieuwe aanmelding te blokkeren. Niemand kan zich aanmelden totdat u het weer inschakelt.",
+        "AllowedEmailDomains": "Geautoriseerde e-maildomeinen",
         "CancelSiteConfirm": "Weet u zeker dat u het maken van de site wilt annuleren?",
         "PluginDescription": "Laat nieuwe gebruikers zich aanmelden op uw Matomo-instantie om hun eigen site bij te houden.",
         "Signup": "Account aanmaken"

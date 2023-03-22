@@ -2,7 +2,10 @@
     "Signup": {
         "AllowNewUsersToSignup": "Neuen Benutzern die Anmeldung erlauben",
         "AllowNewUsersToSignupDescription": "Deaktivieren Sie diese Option, um neue Anmeldungen zu blockieren. Niemand wird sich anmelden können, bis Sie die Option wieder aktivieren.",
+        "AllowedEmailDomains": "Autorisierte Email-Domänen",
+        "AllowedEmailDomainsDescription": "Geben Sie die Liste der E-Mail-Domänen ein, die berechtigt sind, einen Zugang von diesem Plugin aus zu erstellen. Eine Domain pro Zeile, das Zeichen * ist erlaubt. Beispiel: evilcorp.com, *.evilcorp.com erlaubt Emails wie john@intra.evilcorp.com. Leer lassen, um keine Einschränkungen zu machen.",
         "CancelSiteConfirm": "Sind Sie sicher dass Sie die Erstellung der Seite abbrechen wollen?",
+        "DisallowedEmailDomain": "Sie können sich mit dieser E-Mail nicht anmelden, Ihre Domain %s ist nicht erlaubt. Erlaubte Domains sind: %s",
         "PluginDescription": "Lässt neue Benutzer in Ihrer Matomo Instanz anmelden um deren eigene Seite zu tracken.",
         "Signup": "Benutzerkonto erstellen"
     }
