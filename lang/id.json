@@ -2,7 +2,10 @@
     "Signup": {
         "AllowNewUsersToSignup": "Izinkan pengguna baru untuk mendaftar",
         "AllowNewUsersToSignupDescription": "Nonaktifkan opsi ini untuk memblokir pendaftaran baru. Tidak ada yang bisa mendaftar sampai Anda mengaktifkannya lagi.",
+        "AllowedEmailDomains": "Domain surel resmi",
+        "AllowedEmailDomainsDescription": "Masukkan daftar domain surel resmi untuk membuat akses dari pengaya ini. Satu domain per baris, karakter * diperbolehkan. Contoh: evilcorp.com, *.evilcorp.com akan mengizinkan surel seperti john@intra.evilcorp.com. Biarkan kosong untuk tidak menerapkan batasan apa pun.",
         "CancelSiteConfirm": "Apakah Anda yakin akan membatalkan pembuatan situs?",
+        "DisallowedEmailDomain": "Tidak dapat mendaftar dengan surel ini, domain Anda %s tidak diizinkan. Domain yang diizinkan adalah: %s",
         "PluginDescription": "Membolehkan pengguna baru untuk mendaftar di Matomo Anda untuk melacak situs mereka sendiri.",
         "Signup": "Buat akun"
     }
