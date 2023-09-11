@@ -2,7 +2,10 @@
     "Signup": {
         "AllowNewUsersToSignup": "Tillåt nya användare att registrera sig",
         "AllowNewUsersToSignupDescription": "Inaktivera det här alternativet för att blockera ny registrering. Ingen kommer att kunna registrera sig förrän du aktiverar det igen.",
+        "AllowedEmailDomains": "Betrodda mejldomäner",
+        "AllowedEmailDomainsDescription": "Ange en lista med mejldomäner att lita på för detta insticksprogram. En domän per rad, tecknet * godtas. Exempelvis: evilcorp.com, *.evilcorp.com kommer godta mejladresser som john@intra.evilcorp.com. Lämna tomt för att inte ha några begränsningar.",
         "CancelSiteConfirm": "Är du säker på att avbryta skapandet av webbplatsen?",
+        "DisallowedEmailDomain": "Går inte att anmäla sig med den mejladressen. Din domän %s är inte godkänd. De som är godkända är: %s",
         "PluginDescription": "Låt nya användare registrera sig på din Matomo-instans för att spåra sin egen webbplats.",
         "Signup": "Skapa ett konto"
     }

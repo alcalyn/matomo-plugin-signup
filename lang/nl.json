@@ -3,7 +3,9 @@
         "AllowNewUsersToSignup": "Nieuwe gebruikers toestaan zich aan te melden",
         "AllowNewUsersToSignupDescription": "Schakel deze optie uit om nieuwe aanmelding te blokkeren. Niemand kan zich aanmelden totdat u het weer inschakelt.",
         "AllowedEmailDomains": "Geautoriseerde e-maildomeinen",
+        "AllowedEmailDomainsDescription": "Geef een lijst van e-maildomeinen die geauthoriseerd zijn om een toegang vanuit deze plugin te maken. Eén domein per regel, het karakter * is toegestaan. Bijvoorbeeld evilcorp.com, *.evilcorp.com zal e-mails zoals john@intra.evilcorp.com toelaten. Laat leeg om geen beperkingen toe te passen.",
         "CancelSiteConfirm": "Weet u zeker dat u het maken van de site wilt annuleren?",
+        "DisallowedEmailDomain": "Kan niet aanmelden met deze e-mail, uw domein %s is niet toegestaan. Toegelaten domeinen zijn: %s",
         "PluginDescription": "Laat nieuwe gebruikers zich aanmelden op uw Matomo-instantie om hun eigen site bij te houden.",
         "Signup": "Account aanmaken"
     }

@@ -1,5 +1,12 @@
 {
     "Signup": {
-        "PluginDescription": "讓新用戶在您的 Matomo 實例上註冊以追蹤他們自己的網站。"
+        "AllowNewUsersToSignup": "允許新使用者註冊",
+        "AllowNewUsersToSignupDescription": "禁用此選項以拒絕新註冊。在您再次啟用它之前，沒有人能夠註冊。",
+        "AllowedEmailDomains": "授權的電子郵件域",
+        "AllowedEmailDomainsDescription": "輸入授權從此外掛建立存取的電子郵件域名列表。一個域名一行，允許使用萬用字元 *。例如：evilcorp.com、*.evilcorp.com 將允許類似 john@intra.evilcorp.com 的電子郵件地址。留空以不設限制。",
+        "CancelSiteConfirm": "您確定要取消建立網站嗎？",
+        "DisallowedEmailDomain": "無法使用此電子郵件地址進行註冊，因為你的域 %s 不被允許。允許的域有：%s",
+        "PluginDescription": "讓新使用者在您的 Matomo 實例上註冊以追蹤他們自己的網站。",
+        "Signup": "建立帳戶"
     }
 }
