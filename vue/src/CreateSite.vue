@@ -12,7 +12,6 @@
 <template>
   <div
     class="site card hoverable editingSite"
-    ref="root"
   >
     <div class="card-content">
 
