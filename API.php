@@ -23,7 +23,7 @@ class API extends PluginApi
      * Public API, returns non-sensitive settings about Signup system settings.
      * Can be accessed by requesting:
      *
-     * ?module=API&method=Signup.getSignupPublicSettings&format=json2
+     * ?module=API&method=Signup.getSignupPublicSettings&format=json
      *
      * @return array Non-sensitive settings of Signup plugin.
      */

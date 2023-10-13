@@ -35,7 +35,7 @@
             ajaxRequest.addParams({
                 module: 'API',
                 method: 'Signup.signupUser',
-                format: 'json2',
+                format: 'json',
             }, 'get');
             ajaxRequest.addParams({
                 login: $('.signupForm [name="login"]').val(),

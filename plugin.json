@@ -1,12 +1,12 @@
 {
     "name": "Signup",
     "description": "Let new users signup on your Matomo instance to track their own website.",
-    "version": "4.2.2",
+    "version": "5.0.0",
     "license": "GPL-3.0+",
     "homepage": "https://github.com/alcalyn/matomo-plugin-signup",
     "theme": false,
     "require": {
-        "piwik": ">=4.8.0,<5.0.0-b1"
+        "piwik": ">=5.0.0-rc4,<6.0.0-b1"
     },
     "authors": [
         {
