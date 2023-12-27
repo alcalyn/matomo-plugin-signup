@@ -1,1 +1,7 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Salli uusien käyttäjien rekisteröityä",
+        "AllowedEmailDomains": "Valtuutetut sähköpostin verkkotunnukset",
+        "Signup": "Luo tili"
+    }
+}
