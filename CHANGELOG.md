@@ -1,5 +1,9 @@
 ## Changelog
 
+### Version 5.0.1
+
+- Adds translations
+
 ### Version 5.0.0
 
 - [Fixes #24] Matomo 5 compatibility

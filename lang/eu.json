@@ -1,1 +1,12 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Baimendu erabiltzaile berriek kontua sortzea",
+        "AllowNewUsersToSignupDescription": "Desgaitu aukera hau kontu berriak sortzea blokeatzeko. Inork ezin izango du erregistratu berriz gaitzen duzun arte.",
+        "AllowedEmailDomains": "Baimendutako posta elektronikoko domeinuak",
+        "AllowedEmailDomainsDescription": "Sartu plugin honentzat sarbidea sortzeko baimena duten posta elektronikoko domeinuen zerrenda. Domeinu bat errenkadako, * karakterea onartzen da. Adibidez: evilcorp.com eta *.evilcorp.com. Azken honek john@intra.evilcorp.com bezalako helbideak onartzen ditu. Utzi hutsik mugarik ez ezartzeko.",
+        "CancelSiteConfirm": "Ziur zaude gunea sortzea ezeztatu nahi duzula?",
+        "DisallowedEmailDomain": "Ezin da erregistratu e-posta horrekin, zure %s domeinua ez da onartzen. Onartutako domeinuak hauek dira: %s",
+        "PluginDescription": "Baimendu erabiltzaile berrien erregistroa zure Matomo instantzian, haien guneen jarraipena egin dezaten.",
+        "Signup": "Sortu kontua"
+    }
+}
