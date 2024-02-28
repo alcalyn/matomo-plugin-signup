@@ -2,7 +2,7 @@
 
 ## Translation
 
-[![État de la traduction](https://hosted.weblate.org/widgets/matomo/-/communityplugin-signup/multi-auto.svg)](https://hosted.weblate.org/engage/matomo/)
+[![Translation current status](https://hosted.weblate.org/widgets/matomo/-/communityplugin-signup/multi-auto.svg)](https://hosted.weblate.org/engage/matomo/)
 
 Translate this plugin :
 
@@ -47,23 +47,24 @@ cd matomo/
 # Install dependencies
 composer install
 
-# Enable development mode (to avoid assets caching and enabling vue assets building)
-php console development:enable
+# Install frontend dependencies
+npm install
 
 # Run PHP local server
 php -S 0.0.0.0:8000
-
-# Automatically build vue assets
-php console vue:build Signup --watch
 ```
 
-Then go to <http://0.0.0.0:8000/index.php>
+- Then go to <http://0.0.0.0:8000/index.php>
+- Follow the installation procedure.
+
+``` bash
+# Enable development mode (to avoid assets caching and enabling vue assets building)
+php console development:enable
+```
 
 All this part is also officially documented by Matomo:
 
 <https://developer.matomo.org/guides/getting-started-part-1>
-
-Then, follow the installation process.
 
 ### Clone Signup plugin
 
@@ -79,3 +80,10 @@ cd Signup/
 ```
 
 Now you should be able to enable the plugin in Matomo admin interface.
+
+If you edit frontend assets (vue, js files...), run this commands to automatically recompile assets:
+
+```bash
+# Automatically build vue assets
+php console vue:build Signup --watch
+```

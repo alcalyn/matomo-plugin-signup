@@ -1,5 +1,9 @@
 ## Changelog
 
+### Version 5.0.0
+
+- [Fixes #24] Matomo 5 compatibility
+
 ### Version 4.2.0
 
 - [Fixes #7] Allow to restrict users signup by email domain
