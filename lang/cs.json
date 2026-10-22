@@ -1,1 +1,12 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Povolit registraci nových uživatelů",
+        "AllowNewUsersToSignupDescription": "Zakázáním této možnosti zablokujete novou registraci. Dokud ji opět nepovolíte, nebude se moci nikdo zaregistrovat.",
+        "AllowedEmailDomains": "Autorizované e-mailové domény",
+        "AllowedEmailDomainsDescription": "Zadejte seznam e-mailových domén oprávněných vytvářet přístup z tohoto zásuvného modulu. Na každém řádku je povolena jedna doména, znak *. Příklad: evilcorp.com, *.evilcorp.com povolí e-maily jako john@intra.evilcorp.com. Nechte prázdné, aby se neuplatňovala žádná omezení.",
+        "CancelSiteConfirm": "Určitě chcete zrušit vytvoření webu?",
+        "DisallowedEmailDomain": "Nelze se přihlásit pomocí tohoto e-mailu, vaše doména %s není povolena. Povolené domény jsou: %s",
+        "PluginDescription": "Umožněte novým uživatelům zaregistrovat se ve vaší instanci Matomo a sledovat jejich vlastní stránky.",
+        "Signup": "Vytvořit účet"
+    }
+}

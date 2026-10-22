@@ -3,7 +3,7 @@
         "AllowNewUsersToSignup": "Lejo regjistrim përdoruesish të rinj",
         "AllowNewUsersToSignupDescription": "Çaktivizojeni këtë mundësi që të bllokoni regjistrime të reja. Askush s’do të jetë në gjendje të regjistrohet, pa e riaktivizuar ju.",
         "AllowedEmailDomains": "Përkatësi email të autorizuara",
-        "AllowedEmailDomainsDescription": "Jepni listën e përkatësive email të autorizuara, për të krijuar hyrje prej kësaj shtojce. Një përkatësi për rresht, lejohet shenja *. Shembull: evilcorp.com, *.evilcorp.com do të lejojë email-e të tillë si john@intra.evilcorp.com. Lëreni të zbrazët për të mos aplikuar ndonjë kufizim.",
+        "AllowedEmailDomainsDescription": "Jepni listën e përkatësive email të autorizuara, për të krijuar hyrje prej kësaj shtojce. Një përkatësi për rresht, lejohet shenja *. Shembull: evilcorp.com, *.evilcorp.com do të lejojë email-e të tillë si john@intra.evilcorp.com. Për të mos aplikuar ndonjë kufizim, lëreni të zbrazët.",
         "CancelSiteConfirm": "Jeni i sigurt për anulimin e krijimit të sajtit?",
         "DisallowedEmailDomain": "S’bëhet dot regjistrim me këtë email, përkatësia juaj %s është e palejuar. Përkatësi të lejuara janë: %s",
         "PluginDescription": "Lërini përdoruesit e rinj të regjistrohen te instanca juaj e Matomo-s, që të ndjekin sajtin e tyre.",

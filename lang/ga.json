@@ -1,1 +1,12 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Lig d'úsáideoirí nua clárú",
+        "AllowNewUsersToSignupDescription": "Díchumasaigh an rogha seo chun clárú nua a bhlocáil. Ní bheidh aon duine in ann clárú go dtí go mbeidh tú cumasaithe arís.",
+        "AllowedEmailDomains": "Fearainn ríomhphoist údaraithe",
+        "AllowedEmailDomainsDescription": "Cuir isteach liosta na bhfearann ríomhphoist atá údaraithe chun rochtain a chruthú ón mbreiseán seo. Tá fearann amháin in aghaidh an líne, carachtar * ceadaithe. Sampla: evilcorp.com, *.evilcorp.com ceadóidh sé ríomhphoist mar john@intra.evilcorp.com. Lig folamh gan aon srianta a chur i bhfeidhm.",
+        "CancelSiteConfirm": "An bhfuil tú cinnte cruthú suímh a chealú?",
+        "DisallowedEmailDomain": "Ní féidir clárú leis an ríomhphost seo, ní cheadaítear d'fhearann %s. Is iad na fearainn a cheadaítear: %s",
+        "PluginDescription": "Lig d’úsáideoirí nua clárú ar do shampla Matomo chun a suíomh féin a rianú.",
+        "Signup": "Cruthaigh cuntas"
+    }
+}

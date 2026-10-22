@@ -1,1 +1,12 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "Dozvoli novim korisnicima da se registriraju",
+        "AllowNewUsersToSignupDescription": "Deaktiviraj ovu opciju za blokiranje novih prijava. Nitko se neće moći prijaviti dok je ponovo ne aktiviraš.",
+        "AllowedEmailDomains": "Autorizirane e-mail domene",
+        "AllowedEmailDomainsDescription": "Upiši popis e-mail domena ovlaštenih za stvaranje pristupa iz ovog dodatka. Jedna domena po retku, dozvoljen je znak *. Primjer: evilcorp.com, *.evilcorp.com dozvoljava e-mail adrese poput john@intra.evilcorp.com. Ostavi prazno ako ne želiš primjenjivati ograničenja.",
+        "CancelSiteConfirm": "Stvarno želiš prekinuti izradu web-stranice?",
+        "DisallowedEmailDomain": "Ne možeš se registrirati s ovom e-mail adresom, tvoja domena %s nije dozvoljena. Dozvoljene domene su: %s",
+        "PluginDescription": "Dozvoli novim korisnicima da se registriraju na tvoju Matomo instancu kako bi pratili vlastitu web-stranicu.",
+        "Signup": "Stvori račun"
+    }
+}

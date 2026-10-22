@@ -1,7 +1,12 @@
 {
     "Signup": {
         "AllowNewUsersToSignup": "Salli uusien käyttäjien rekisteröityä",
+        "AllowNewUsersToSignupDescription": "Poista tämä asetus käytöstä estääksesi uusien rekisteröitymisten tekemisen. Kukaan ei voi rekisteröityä, ennen kuin otat sen uudelleen käyttöön.",
         "AllowedEmailDomains": "Valtuutetut sähköpostin verkkotunnukset",
+        "AllowedEmailDomainsDescription": "Syötä luettelo sähköpostiverkkotunnuksista, joilla on oikeus luoda käyttöoikeus tästä liitännäisestä. Yksi verkkotunnus riviä kohden, sallittu merkki *. Esimerkki: corporation.com, *.corporation.com sallii sähköpostiosoitteet, kuten john@intra.corporation.com. Jätä tyhjäksi, jos et halua rajoituksia.",
+        "CancelSiteConfirm": "Haluatko varmasti peruuttaa sivuston luomisen?",
+        "DisallowedEmailDomain": "Tällä sähköpostiosoitteella ei voi rekisteröityä, verkkotunnuksesi %s ei ole sallittu. Sallitut verkkotunnukset ovat: %s",
+        "PluginDescription": "Salli uusien käyttäjien rekisteröityä Matomo-instanssiisi ja seurata omaa sivustoaan.",
         "Signup": "Luo tili"
     }
 }

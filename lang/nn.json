@@ -1,1 +1,12 @@
-{}
+{
+    "Signup": {
+        "AllowNewUsersToSignup": "La nye brukarar registrere seg",
+        "AllowNewUsersToSignupDescription": "Skru av dette valet for å stoppe nye registreringar. Ingen kan registrere seg før du skrur det på igjen.",
+        "AllowedEmailDomains": "Godkjende e-postdomene",
+        "AllowedEmailDomainsDescription": "Skriv inn lista over e-postdomene som kan opprette tilgang via dette innstikket. Eitt domene per linje, teiknet * er tillate. Døme: evilcorp.com, *.evilcorp.com tillèt e-postadresser som john@intra.evilcorp.com. La feltet stå tomt for ikkje å avgrense noko.",
+        "CancelSiteConfirm": "Er du sikker på at du vil avbryte opprettinga av nettstaden?",
+        "DisallowedEmailDomain": "Kan ikkje registrere deg med denne e-postadressa, domenet ditt %s er ikkje tillate. Tillatne domene er: %s",
+        "PluginDescription": "La nye brukarar registrere seg i Matomo-instansen din for å spore sine eigne nettstader.",
+        "Signup": "Opprett ein konto"
+    }
+}
